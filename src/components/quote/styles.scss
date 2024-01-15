@@ -1,0 +1,41 @@
+#quote-box {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+
+  #text {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  #auther {
+    color: whie;
+    font-size: 1rem;
+  }
+
+  #new-quote {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 55px;
+    color: grey;
+    background-color: white;
+    border: grey solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px auto;
+    
+
+
+    &:hover {
+      color: darkgrey;
+    }
+
+  }
+
+  #tweet-quote {
+    text-decoration: none;
+    color: white;
+  }
+  
+}
